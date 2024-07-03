@@ -1,4 +1,4 @@
-FROM node:hydrogen-bookworm-slim
+FROM node:18.20.3-slim
 WORKDIR /usr/src/app
 COPY . .
 RUN apk update && \
